@@ -1,0 +1,22 @@
+{
+    "name": "elixir-php-auth/login",
+    "type": "library",
+    "keywords": [],
+    "require": {
+        "php": ">=7.2",
+        "cakephp/core": "^3.6",
+        "cakephp/utility": "^3.6",
+        "cakephp/database": "^3.6",
+        "cakephp/validation": "^3.6",
+        "symfony/options-resolver": "^4.2",
+        "crystal-chess/hasher": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElixirPHP\\Auth\\": "./src"
+        }
+    }
+    "config": {
+        "sort-packages": true
+    }
+}
