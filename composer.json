@@ -4,6 +4,7 @@
     "keywords": [],
     "require": {
         "php": ">=7.2",
+        "cakephp/log": "^3.6",
         "cakephp/core": "^3.6",
         "cakephp/utility": "^3.6",
         "cakephp/database": "^3.6",
